@@ -1,0 +1,108 @@
+.fondo-nosotros{
+    background-color: $color-rojo;
+    background-size: cover;
+    background-position: center center;
+    height: 820px;
+}
+.texto-nosotros-1 {
+    text-align: center;
+    margin-left: 550px;
+    top: 200px;
+    background-color: $color-gris;
+    font-size: 30px;
+    border-radius: 40px;
+    opacity: .7;
+    position: absolute
+}
+.texto-nosotros-2 {
+    text-align: center;
+    top: 300px;
+    right: 150px;
+    left: 470px;
+    width: 500px;
+    height: 340px;
+    font-size: 25px;
+    color: $color-blanco;
+    background-color: $color-oscuro;
+    border-radius: 15px;
+    justify-content: center;
+    position: absolute;
+    opacity: .8;
+}
+@include destktop-1 {
+    .texto-nosotros-1 {
+        margin-left: 320px;
+    }
+    .texto-nosotros-2 {
+        left: 250px;
+    }
+}
+@include destktop-2{
+    .texto-nosotros-1 {
+        margin-left: 330px;
+    }
+    .texto-nosotros-2 {
+        left: 250px;
+    }
+}
+@include tablet-1 {
+    .texto-nosotros-1 {
+        margin-left: 240px;
+        border-radius: 30px;
+    }
+    .texto-nosotros-2 {
+        left: 220px;
+        width: 380px;
+        height: 340px;
+        font-size: 22px;
+    }
+}
+@include tablet-2 {
+    .texto-nosotros-1 {
+        margin-left: 250px;
+        border-radius: 30px;
+    }
+    .texto-nosotros-2 {
+        left: 190px;
+        width: 460px;
+        height: 360px;
+    }
+}
+@include mobile-1 {
+    .texto-nosotros-1 {
+        margin-left: 70px;
+        font-size: 25px;
+        border-radius: 30px;
+    }
+    .texto-nosotros-2 {
+        left: 70px;
+        width: 280px;
+        font-size: 18px;
+    }    
+}
+@include mobile-2 {
+    .texto-nosotros-1{
+        margin-left: 50px;
+        font-size: 25px;
+        border-radius: 30px;
+    }
+    .texto-nosotros-2 {
+        left: 50px;
+        width: 280px;
+        height: 340px;
+        font-size: 18px;
+    }
+}
+@include mobile-3 {
+    .texto-nosotros-1 {
+        margin-left: 60px;
+        font-size: 20px;
+        border-radius: 25px;
+    }
+    .texto-nosotros-2 {
+        left: 40px;
+        width: 250px;
+        height: 300px;
+        font-size: 16px;
+    }
+}

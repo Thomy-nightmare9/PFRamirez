@@ -1,0 +1,81 @@
+.footer-inicio {
+    background-color: $color-negro;
+    color: $color-blanco;
+    position: absolute;
+    top: 810px;
+    width: 100%;
+    padding: 40px;
+    font-size: 18px; 
+}
+.footer-menu {
+    background-color: $color-negro;
+    color: $color-blanco;
+    position: absolute;
+    top: 1900px;
+    width: 100%;
+    padding: 40px;
+    font-size: 18px; 
+}
+.footer-nosotros {
+    @extend .footer-inicio;
+}
+.footer-promos {
+    @extend .footer-inicio;
+}
+.footer-contacto {
+    @extend .footer-inicio;
+}
+@include destktop-2 {
+    .footer-menu {
+        position: absolute;
+        top: 4600px;
+        width: 100%;
+        padding: 40px;
+        font-size: 18px; 
+    }
+}
+@include tablet-1 {
+    .footer-menu {
+        position: absolute;
+        top: 4600px;
+        width: 100%;
+        padding: 40px;
+        font-size: 18px; 
+    }
+}
+@include tablet-2 {
+    .footer-menu {
+        position: absolute;
+        top: 4600px;
+        width: 100%;
+        padding: 40px;
+        font-size: 18px; 
+    }
+}
+@include mobile-1 {
+    .footer-menu {
+        position: absolute;
+        top: 4600px;
+        width: 100%;
+        padding: 40px;
+        font-size: 18px; 
+    }
+}
+@include mobile-2 {
+    .footer-menu {
+        position: absolute;
+        top: 4600px;
+        width: 100%;
+        padding: 40px;
+        font-size: 18px; 
+    }
+}
+@include mobile-3 {
+    .footer-menu {
+        position: absolute;
+        top: 4600px;
+        width: 100%;
+        padding: 40px;
+        font-size: 18px; 
+    }
+}

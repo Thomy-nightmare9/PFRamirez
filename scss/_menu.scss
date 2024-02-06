@@ -1,0 +1,2585 @@
+.fondo-menu{
+    background-color: $color-oscuro;
+    background-size: cover;
+    background-position: center center;
+    height: 1900px;
+}
+.container-linea1 {
+    display: flex;
+    height: 500px;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 150px;
+    left: 15px;
+}
+.card-linea1 {
+    width: 400px;
+    margin: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.container-linea2 {
+    display: flex;
+    height: 500px;
+    padding-left: 20px;
+    position: absolute;
+    top: 750px;
+    left: 15px;
+}
+.card-linea2 {
+    width: 400px;
+    margin: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.container-linea3 {
+    display: flex;
+    height: 500px;
+    padding-left: 20px;
+    position: absolute;
+    top: 1300px;
+    left: 15px;
+}
+.card-linea3 {
+    width: 400px;
+    margin: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.container-pizza1 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1040px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute;
+    top: 250px;
+}
+.card-muzza {
+    width: 300px;
+    height: 300px;
+    margin-left: 70px;
+    text-align: start;
+    margin-bottom: 200px;
+}
+.muzza1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: $color-verde;
+    border-radius: 100px;
+    left: 155px;
+    bottom: 450px;
+}
+.muzza2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 450px;
+    left: 150px;
+}
+.card-napolitana {
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+.napolitana1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: $color-verde;
+    border-radius: 100px;
+    left: 540px;
+    bottom: 450px;
+}
+.napolitana2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 450px;
+    left: 600px;
+}
+.card-margherita {
+    width: 300px;
+    height: 300px;
+    margin-left: 130px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+.margherita1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: $color-verde;
+    border-radius: 100px;
+    left: 975px;
+    bottom: 450px;
+}
+.margherita2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 450px;
+    left: 1040px;
+}
+.container-pizza2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1040px;
+    height: 500px;
+    margin-left: 10px;
+    position: absolute;
+    top: 700px;
+}
+.card-jamonymorron {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    text-align: start;
+    margin-bottom: 200px;
+    margin-top: 130px;
+}
+.jamon-morron1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $color-verde;
+    border-radius: 60px;
+    left: 130px;
+    bottom: 430px;
+}
+.jamon-morron2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 440px;
+    left: 140px;
+}
+.card-cuatroquesos {
+    width: 300px;
+    height: 300px;
+    margin-left: 160px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 70px;
+}
+.cuatroquesos1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $color-verde;
+    border-radius: 100px;
+    left: 560px;
+    bottom: 420px;
+}
+.cuatroquesos2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 440px;
+    left: 600px;
+}
+.card-pepperoni {
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+.pepperoni1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: $color-verde;
+    border-radius: 100px;
+    left: 1010px;
+    top: 750px;
+}
+.pepperoni2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 1190px;
+    left: 1045px;
+}
+.container-pizza3 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1040px;
+    height: 500px;
+    margin-left: 10px;
+    position: absolute;
+    top: 1100px;
+}
+.card-tomate {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    text-align: start;
+    margin-bottom: 200px;
+    margin-top: 130px;
+}
+.tomate1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $color-verde;
+    border-radius: 60px;
+    left: 100px;
+    bottom: 450px;
+}
+.tomate2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 440px;
+    left: 130px;
+}
+.card-jamon {
+    width: 300px;
+    height: 300px;
+    margin-left: 160px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 280px;
+}
+.jamon1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $color-verde;
+    border-radius: 100px;
+    left: 565px;
+    bottom: 450px;
+}
+.jamon2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 440px;
+    left: 590px;
+}
+.card-especial {
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 120px;
+}
+.especial1{
+    color: $color-oscuro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $color-verde;
+    border-radius: 100px;
+    left: 990px;
+    bottom: 450px;
+}
+.especial2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 440px;
+    left: 1050px;
+}
+@include destktop-1 {
+    .container-linea1 {
+        display: flex;
+        height: 400px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 200px;
+    }
+    .card-linea1 {
+        width: 310px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+    }
+    .container-linea2 {
+        display: flex;
+        height: 400px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 200px;
+    }
+    .card-linea2 {
+        width: 310px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+    }
+    .container-linea3 {
+        display: flex;
+        height: 400px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 200px;
+    }
+    .card-linea3 {
+        width: 310px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+    }
+    .container-pizza1 {
+        width: 80px;
+        display: flex;
+        margin-bottom: 1040px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 10px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-muzza {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        text-align: start;
+        margin-bottom: 200px;
+    }
+    .muzza1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 100px;
+        bottom: 370px;
+    }
+    .muzza2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 370px;
+        left: 90px;
+    }
+    .card-napolitana {
+        width: 200px;
+        height: 200px;
+        margin-left: 150px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 20px;
+    }
+    .napolitana1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 370px;
+        bottom: 370px;
+    }
+    .napolitana2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 370px;
+        left: 430px;
+    }
+    .card-margherita {
+        width: 200px;
+        height: 200px;
+        margin-left: 130px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 10px;
+    }
+    .margherita1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 700px;
+        bottom: 370px;
+    }
+    .margherita2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 370px;
+        left: 770px;
+    }
+    .container-pizza2 {
+        width: 100%;
+        display: flex;
+        margin-bottom: 1040px;
+        height: 500px;
+        margin-left: 0px;
+        position: absolute;
+        top: 650px;
+    }
+    .card-jamonymorron {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        text-align: start;
+        margin-bottom: 200px;
+    }
+    .jamon-morron1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 50px;
+        bottom: 370px;
+    }
+    .jamon-morron2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 380px;
+        left: 80px;
+    }
+    .card-cuatroquesos {
+        width: 300px;
+        height: 300px;
+        margin-left: 160px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 70px;
+    }
+    .cuatroquesos1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 400px;
+        bottom: 360px;
+    }
+    .cuatroquesos2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 380px;
+        left: 430px;
+    }
+    .card-pepperoni {
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 10px;
+    }
+    .pepperoni1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 740px;
+        top: 720px;
+    }
+    .pepperoni2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1130px;
+        left: 790px;
+    }
+    .container-pizza3 {
+        width: 100%;
+        display: flex;
+        margin-bottom: 1040px;
+        height: 500px;
+        margin-left: 0px;
+        position: absolute;
+        top: 1050px;
+    }
+    .card-tomate {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        text-align: start;
+        margin-bottom: 200px;
+        margin-top: 130px;
+    }
+    .tomate1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 50px;
+        bottom: 380px;
+    }
+    .tomate2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 380px;
+        left: 90px;
+    }
+    .card-jamon {
+        width: 300px;
+        height: 300px;
+        margin-left: 55px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 280px;
+    }
+    .jamon1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 410px;
+        bottom: 380px;
+    }
+    .jamon2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 380px;
+        left: 430px;
+    }
+    .card-especial {
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 120px;
+    }
+    .especial1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 720px;
+        bottom: 380px;
+    }
+    .especial2{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;;
+        border-radius: 100px;
+        top: 380px;
+        left: 770px;
+    }
+}
+@include destktop-2 {
+    .fondo-menu{
+        background-size: cover;
+        background-position: center center;
+        height: 4600px;
+    }
+    .container-linea1 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 300px;
+        margin-top: 40px;
+    }
+    .card-linea1 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea2 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 300px;
+        margin-top: 800px;
+    }
+    .card-linea2 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea3 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 300px;
+        margin-top: 1700px;
+    }
+    .card-linea3 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-pizza1 {
+        width: 80px;
+        display: block;
+        margin-bottom: 1040px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 10px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-muzza {
+        width: 200px;
+        height: 200px;
+        margin-left: 330px;
+        text-align: start;
+        margin-bottom: 200px;
+    }
+    .muzza1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 300px;
+        bottom: 370px;
+    }
+    .muzza2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 400px;
+        left: 130px;
+    }
+    .card-napolitana {
+        width: 200px;
+        height: 200px;
+        margin-left: 350px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 250px;
+    }
+    .napolitana1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 370px;
+        bottom: 370px;
+    }
+    .napolitana2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 130px;
+    }
+    .card-margherita {
+        width: 200px;
+        height: 200px;
+        margin-left: 330px;
+        text-align: center;
+        margin-bottom: 500px;
+        margin-top: 250px;
+    }
+    .margherita1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 700px;
+        bottom: 370px;
+    }
+    .margherita2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1300px;
+        left: 130px;
+    }
+    .container-pizza2 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 350px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-jamonymorron {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        text-align: start;
+        margin-bottom: 200px;
+    }
+    .jamon-morron1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 20px;
+    }
+    .jamon-morron2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 420px;
+        left: 130px;
+    }
+    .card-cuatroquesos {
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 70px;
+    }
+    .cuatroquesos1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 100px;
+        top: 500px;
+    }
+    .cuatroquesos2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 880px;
+        left: 130px;
+    }
+    .card-pepperoni {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        text-align: center;
+        bottom: 300px;
+        top: 0px;
+    }
+    .pepperoni1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 420px;
+        top: 2550px;
+    }
+    .pepperoni2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 2600px;
+        left: 440px;
+    }
+
+    .container-pizza3 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 350px;
+        position: absolute;
+        top: 1550px;
+    }
+    .card-tomate {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        text-align: start;
+        bottom: 400px;
+        top: 130px;
+    }
+    .tomate1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 50px;
+    }
+    .tomate2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 410px;
+        left: 120px;
+    }
+    .card-jamon {
+        width: 300px;
+        height: 300px;
+        margin-left: 5px;
+        text-align: center;
+        bottom: 400px;
+        top: 380px;
+    }
+    .jamon1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 130px;
+        top: 480px;
+    }
+    .jamon2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 120px;
+    }
+    .card-especial {
+        width: 300px;
+        height: 300px;
+        margin-left: 5px;
+        text-align: center;
+        margin-bottom: 0px;
+        top: 0px;
+    }
+    .especial1{
+        left: 90px;
+        top: 950px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+    }
+    .especial2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1000px;
+        left: 115px;
+    }
+}
+@include tablet-1 {
+    .fondo-menu{
+        background-size: cover;
+        background-position: center center;
+        height: 4600px;
+    }
+    .container-linea1 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+    .card-linea1 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea2 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 200px;
+        margin-top: 800px;
+    }
+    .card-linea2 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea3 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 200px;
+        margin-top: 1700px;
+    }
+    .card-linea3 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-pizza1 {
+        width: 80px;
+        display: block;
+        margin-bottom: 1040px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 10px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-muzza {
+        width: 200px;
+        height: 200px;
+        margin-left: 230px;
+        text-align: start;
+        margin-bottom: 200px;
+    }
+    .muzza1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 300px;
+        bottom: 370px;
+    }
+    .muzza2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 400px;
+        left: 130px;
+    }
+    .card-napolitana {
+        width: 200px;
+        height: 200px;
+        margin-left: 250px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 250px;
+    }
+    .napolitana1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 370px;
+        bottom: 370px;
+    }
+    .napolitana2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 130px;
+    }
+    .card-margherita {
+        width: 200px;
+        height: 200px;
+        margin-left: 230px;
+        text-align: center;
+        margin-bottom: 500px;
+        margin-top: 250px;
+    }
+    .margherita1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 700px;
+        bottom: 370px;
+    }
+    .margherita2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1300px;
+        left: 130px;
+    }
+    .container-pizza2 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 250px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-jamonymorron {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        text-align: start;
+        margin-bottom: 200px;
+        margin-right: 300px;
+    }
+    .jamon-morron1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 20px;
+    }
+    .jamon-morron2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 420px;
+        left: 130px;
+    }
+    .card-cuatroquesos {
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 70px;
+    }
+    .cuatroquesos1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 100px;
+        top: 500px;
+    }
+    .cuatroquesos2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 880px;
+        left: 130px;
+    }
+    .card-pepperoni {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        text-align: center;
+        bottom: 300px;
+        top: 0px;
+    }
+    .pepperoni1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 320px;
+        top: 2550px;
+    }
+    .pepperoni2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 2600px;
+        left: 340px;
+    }
+    .container-pizza3 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 250px;
+        position: absolute;
+        top: 1550px;
+    }
+    .card-tomate {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        text-align: start;
+        bottom: 400px;
+        top: 130px;
+    }
+    .tomate1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 50px;
+    }
+    .tomate2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 410px;
+        left: 120px;
+    }
+    .card-jamon {
+        width: 300px;
+        height: 300px;
+        margin-left: 5px;
+        text-align: center;
+        bottom: 400px;
+        top: 380px;
+    }
+    .jamon1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 130px;
+        top: 480px;
+    }
+    .jamon2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 120px;
+    }
+    .card-especial {
+        width: 300px;
+        height: 300px;
+        margin-left: 5px;
+        text-align: center;
+        margin-bottom: 0px;
+        top: 0px;
+    }
+    .especial1{
+        left: 90px;
+        top: 950px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+    }
+    .especial2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1000px;
+        left: 115px;
+    }
+}
+@include mobile-1 {
+    .fondo-menu{
+        background-size: cover;
+        background-position: center center;
+        height: 4600px;
+    }
+    .container-linea1 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .card-linea1 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea2 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 0px;
+        margin-top: 800px;
+    }
+    .card-linea2 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea3 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: 0px;
+        margin-top: 1700px;
+    }
+    .card-linea3 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-pizza1 {
+        width: 80px;
+        display: block;
+        margin-bottom: 1040px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 0px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-muzza {
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+        text-align: start;
+        margin-bottom: 200px;
+    }
+    .muzza1{
+
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 300px;
+        bottom: 370px;
+    }
+    .muzza2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 400px;
+        left: 130px;
+    }
+    .card-napolitana {
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 250px;
+    }
+    .napolitana1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 370px;
+        bottom: 370px;
+    }
+    .napolitana2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 130px;
+    }
+    .card-margherita {
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+        text-align: center;
+        margin-bottom: 500px;
+        margin-top: 250px;
+    }
+    .margherita1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 700px;
+        bottom: 370px;
+    }
+    .margherita2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1300px;
+        left: 130px;
+    }
+    .container-pizza2 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 50px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-jamonymorron {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        text-align: start;
+        margin-bottom: 200px;
+        margin-right: 300px;
+    }
+    .jamon-morron1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 20px;
+    }
+    .jamon-morron2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 420px;
+        left: 130px;
+    }
+    .card-cuatroquesos {
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 70px;
+    }
+    .cuatroquesos1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 100px;
+        top: 500px;
+    }
+    .cuatroquesos2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 880px;
+        left: 130px;
+    }
+    .card-pepperoni {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        text-align: center;
+        bottom: 300px;
+        top: 0px;
+    }
+    .pepperoni1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 120px;
+        top: 2550px;
+    }
+    .pepperoni2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 2600px;
+        left: 120px;
+    }
+    .container-pizza3 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 50px;
+        position: absolute;
+        top: 1550px;
+    }
+    .card-tomate {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        text-align: start;
+        bottom: 400px;
+        top: 130px;
+    }
+    .tomate1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 50px;
+    }
+    .tomate2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 410px;
+        left: 120px;
+    }
+    .card-jamon {
+        width: 300px;
+        height: 300px;
+        margin-left: 5px;
+        text-align: center;
+        bottom: 400px;
+        top: 380px;
+    }
+    .jamon1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 130px;
+        top: 480px;
+    }
+    .jamon2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 120px;
+    }
+    .card-especial {
+        width: 300px;
+        height: 300px;
+        margin-left: 5px;
+        text-align: center;
+        margin-bottom: 0px;
+        top: 0px;
+    }
+    .especial1{
+        left: 90px;
+        top: 950px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+    }
+    .especial2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1000px;
+        left: 115px;
+    }
+}
+@include mobile-2 {
+    .fondo-menu{
+        background-size: cover;
+        background-position: center center;
+        height: 4600px;
+    }
+    .container-linea1 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: -29px;
+        margin-top: 40px;
+    }
+    .card-linea1 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea2 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: -29px;
+        margin-top: 800px;
+    }
+    .card-linea2 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea3 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: -29px;
+        margin-top: 1700px;
+    }
+    .card-linea3 {
+        width: 370px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-pizza1 {
+        width: 80px;
+        display: block;
+        margin-bottom: 1040px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 0px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-muzza {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        text-align: start;
+        margin-bottom: 200px;
+    }
+    .muzza1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 300px;
+        bottom: 370px;
+    }
+    .muzza2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 400px;
+        left: 130px;
+    }
+    .card-napolitana {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 250px;
+    }
+    .napolitana1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 370px;
+        bottom: 370px;
+    }
+    .napolitana2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 130px;
+    }
+    .card-margherita {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        text-align: center;
+        margin-bottom: 500px;
+        margin-top: 250px;
+    }
+    .margherita1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 700px;
+        bottom: 370px;
+    }
+    .margherita2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1300px;
+        left: 130px;
+    }
+    .container-pizza2 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 50px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-jamonymorron {
+        width: 200px;
+        height: 200px;
+        margin-left: -40px;
+        text-align: start;
+        margin-bottom: 200px;
+        margin-right: 300px;
+    }
+    .jamon-morron1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 20px;
+    }
+    .jamon-morron2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 420px;
+        left: 130px;
+    }
+    .card-cuatroquesos {
+        width: 300px;
+        height: 300px;
+        margin-left: -20px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 70px;
+    }
+    .cuatroquesos1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 100px;
+        top: 500px;
+    }
+    .cuatroquesos2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 880px;
+        left: 130px;
+    }
+    .card-pepperoni {
+        width: 300px;
+        height: 300px;
+        margin-left: -20px;
+        text-align: center;
+        bottom: 300px;
+        top: 0px;
+    }
+    .pepperoni1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 120px;
+        top: 2550px;
+    }
+    .pepperoni2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 2600px;
+        left: 120px;
+    }
+    .container-pizza3 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 50px;
+        position: absolute;
+        top: 1550px;
+    }
+    .card-tomate {
+        width: 300px;
+        height: 300px;
+        margin-left: -20px;
+        text-align: start;
+        bottom: 400px;
+        top: 130px;
+    }
+    .tomate1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 50px;
+    }
+    .tomate2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 410px;
+        left: 120px;
+    }
+    .card-jamon {
+        width: 300px;
+        height: 300px;
+        margin-left: -20px;
+        text-align: center;
+        bottom: 400px;
+        top: 380px;
+    }
+    .jamon1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 130px;
+        top: 480px;
+    }
+    .jamon2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 120px;
+    }
+    .card-especial {
+        width: 300px;
+        height: 300px;
+        margin-left: -35px;
+        text-align: center;
+        margin-bottom: 0px;
+        top: 0px;
+    }
+    .especial1{
+        left: 90px;
+        top: 950px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+    }
+    .especial2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1000px;
+        left: 115px;
+    }
+}
+@include mobile-3 {
+    .fondo-menu{
+        background-size: cover;
+        background-position: center center;
+        height: 4600px;
+    }
+    .container-linea1 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: -29px;
+        margin-top: 40px;
+    }
+    .card-linea1 {
+        width: 320px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea2 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: -29px;
+        margin-top: 800px;
+    }
+    .card-linea2 {
+        width: 320px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-linea3 {
+        display: inline-block;
+        height: 100px;
+        padding-left: 0px;
+        position: absolute;
+        bottom: 540px;
+        margin-left: -29px;
+        margin-top: 1700px;
+    }
+    .card-linea3 {
+        width: 320px;
+        height: 430px;
+        margin: 15px;
+        border-radius: 50px;
+        overflow: hidden;
+        left: 0px;
+        right: 500px;
+    }
+    .container-pizza1 {
+        width: 80px;
+        display: block;
+        margin-bottom: 1040px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 0px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-muzza {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        text-align: start;
+        margin-bottom: 200px;
+    }
+    .muzza1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 300px;
+        bottom: 370px;
+    }
+    .muzza2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 400px;
+        left: 130px;
+    }
+    .card-napolitana {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 250px;
+    }
+    .napolitana1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 370px;
+        bottom: 370px;
+    }
+    .napolitana2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 130px;
+    }
+    .card-margherita {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 500px;
+        margin-top: 250px;
+    }
+    .margherita1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 700px;
+        bottom: 370px;
+    }
+    .margherita2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1300px;
+        left: 130px;
+    }
+    .container-pizza2 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 50px;
+        position: absolute;
+        top: 250px;
+    }
+    .card-jamonymorron {
+        width: 200px;
+        height: 200px;
+        margin-left: -60px;
+        text-align: start;
+        margin-bottom: 200px;
+        margin-right: 300px;
+    }
+    .jamon-morron1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 20px;
+    }
+    .jamon-morron2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 420px;
+        left: 130px;
+    }
+    .card-cuatroquesos {
+        width: 300px;
+        height: 300px;
+        margin-left: -60px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 70px;
+    }
+    .cuatroquesos1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 100px;
+        top: 500px;
+    }
+    .cuatroquesos2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 880px;
+        left: 130px;
+    }
+    .card-pepperoni {
+        width: 300px;
+        height: 300px;
+        margin-left: -60px;
+        text-align: center;
+        bottom: 300px;
+        top: 0px;
+    }
+    .pepperoni1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100px;
+        left: 120px;
+        top: 2550px;
+    }
+    .pepperoni2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 2600px;
+        left: 120px;
+    }
+    .container-pizza3 {
+        width: 80px;
+        display: block;
+        margin-top: 1250px;
+        height: 80px;
+        max-height: 200px;
+        margin-left: 50px;
+        position: absolute;
+        top: 1550px;
+    }
+    .card-tomate {
+        width: 300px;
+        height: 300px;
+        margin-left: -60px;
+        text-align: start;
+        bottom: 400px;
+        top: 130px;
+    }
+    .tomate1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 60px;
+        left: 100px;
+        bottom: 50px;
+    }
+    .tomate2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 410px;
+        left: 120px;
+    }
+    .card-jamon {
+        width: 300px;
+        height: 300px;
+        margin-left: -60px;
+        text-align: center;
+        bottom: 400px;
+        top: 380px;
+    }
+    .jamon1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        left: 130px;
+        top: 480px;
+    }
+    .jamon2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 850px;
+        left: 120px;
+    }
+    .card-especial {
+        width: 300px;
+        height: 300px;
+        margin-left: -65px;
+        text-align: center;
+        margin-bottom: 0px;
+        top: 0px;
+    }
+    .especial1{
+        left: 90px;
+        top: 950px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+    }
+    .especial2{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 100px;
+        top: 1000px;
+        left: 115px;
+    }
+}

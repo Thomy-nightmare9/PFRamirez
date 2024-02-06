@@ -1,0 +1,261 @@
+.fondo-contacto{
+    background-color: $color-oscuro;
+    background-size: cover;
+    background-position: center center;
+    height: 820px;
+}
+.formulario{
+    margin-left: 100px;
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+    background-color: #BDBDBD;
+    margin-top: 200px;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 400px;
+}
+.asunto{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.nombre-apellido{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.email{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.mensaje{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-left: 110px;
+}
+.boton {
+    left: 110px;
+    color: #FFFFFF;
+    background-color: #CE2B37;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 25px;
+}
+@include tablet-1 {
+    .formulario{
+        margin-left: 100px;
+        position: absolute;
+        bottom: 120px;
+        right: 230px;
+        margin-top: 200px;
+        font-size: 20px;
+        border-radius: 50px;
+        width: 400px;
+    }
+    .asunto{
+        position: relative;
+        margin-left: 120px;
+    }
+    .nombre-apellido{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .email{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .mensaje{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        margin-left: 120px;
+    }
+    .boton {
+        left: 120px;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        font-size: 30px;
+        position: absolute;
+        bottom: 10px;
+        margin-left: 15px;
+    }
+}
+@include tablet-2 {
+    .formulario{
+        margin-left: 100px;
+        position: absolute;
+        bottom: 120px;
+        right: 180px;
+        margin-top: 200px;
+        font-size: 20px;
+        border-radius: 50px;
+        width: 400px;
+    }
+    .asunto{
+        position: relative;
+        margin-top: 100px;
+        margin-left: 120px;
+    }
+    .nombre-apellido{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .email{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .mensaje{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        margin-left: 120px;
+    }
+    .boton {
+        left: 120px;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        font-size: 30px;
+        position: absolute;
+        bottom: 10px;
+        margin-left: 15px;
+    }
+}
+@include mobile-1 {
+    .formulario{
+        margin-left: 100px;
+        position: absolute;
+        bottom: 120px;
+        right: 20px;
+        margin-top: 200px;
+        font-size: 20px;
+        border-radius: 50px;
+        width: 380px;
+    }
+    .asunto{
+        position: relative;
+        margin-left: 100px;
+    }
+    .nombre-apellido{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .email{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .mensaje{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        margin-left: 100px;
+    }
+    .boton {
+        left: 100px;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        font-size: 30px;
+        position: absolute;
+        bottom: 10px;
+        margin-left: 15px;
+    }
+}
+@include mobile-2 {
+    .formulario{
+        margin-left: 100px;
+        position: absolute;
+        bottom: 120px;
+        right: 20px;
+        margin-top: 200px;
+        font-size: 20px;
+        border-radius: 50px;
+        width: 330px;
+    }
+    .asunto{
+        position: relative;
+        margin-left: 80px;
+    }
+    .nombre-apellido{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    .email{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    .mensaje{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        margin-left: 80px;
+    }
+    .boton {
+        left: 80px;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        font-size: 30px;
+        position: absolute;
+        bottom: 10px;
+        margin-left: 15px;
+    }
+}
+@include mobile-3 {
+    .formulario{
+        margin-left: 100px;
+        position: absolute;
+        bottom: 120px;
+        right: 20px;
+        margin-top: 200px;
+        font-size: 20px;
+        border-radius: 50px;
+        width: 270px;
+    }
+    .asunto{
+        position: relative;
+        margin-left: 50px;
+    }
+    .nombre-apellido{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .email{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .mensaje{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        margin-left: 50px;
+    }
+    .boton {
+        left: 50px;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        font-size: 30px;
+        position: absolute;
+        bottom: 10px;
+        margin-left: 15px;
+    }
+}
